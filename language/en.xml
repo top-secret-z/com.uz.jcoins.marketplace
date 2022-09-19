@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="en">
-	<category name="wcf.jcoins.statement">
-		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.marketplace.exchange"><![CDATA[Marketplace Exchange Offer]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.marketplace.exchange"><![CDATA[Marketplace Exchange Offer deleted]]></item>
-		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.marketplace.exchange"><![CDATA[{if $statement->getObject()->getTitle()}Your Marketplace exchange offer “{$statement->getObject()->getTitle()}” was published.{else}A Marketplace exchange offer exchange of yours was published, which was deleted in the meantime.{/if}]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.marketplace.exchange"><![CDATA[{if $statement->getObject()->getTitle()}Your Marketplace exchange offer “{$statement->getObject()->getTitle()}” was disabled.{else}A Marketplace exchange offer of yours was deleted.{/if}]]></item>
-		
-		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.marketplace.offer"><![CDATA[Marketplace Offer]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.marketplace.offer"><![CDATA[Marketplace Offer deleted]]></item>
-		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.marketplace.offer"><![CDATA[{if $statement->getObject()->getTitle()}Your Marketplace offer “{$statement->getObject()->getTitle()}” was published.{else}A Marketplace offer of yours was published, which was deleted in the meantime.{/if}]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.marketplace.offer"><![CDATA[{if $statement->getObject()->getTitle()}Your Marketplace offer “{$statement->getObject()->getTitle()}” was disabled.{else}A Marketplace offer of yours was deleted.{/if}]]></item>
-		
-		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.marketplace.search"><![CDATA[Marketplace Search]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.marketplace.search"><![CDATA[Marketplace Search deleted]]></item>
-		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.marketplace.search"><![CDATA[{if $statement->getObject()->getTitle()}Your Marketplace search “{$statement->getObject()->getTitle()}” was published.{else}A Marketplace search of yours was published, which was deleted in the meantime.{/if}]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.marketplace.search"><![CDATA[{if $statement->getObject()->getTitle()}Your Marketplace search “{$statement->getObject()->getTitle()}” was disabled.{else}A Marketplace search of yours was deleted.{/if}]]></item>
-		
-		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.marketplace.rating"><![CDATA[Marketplace Rating]]></item>
-		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.marketplace.rating"><![CDATA[You created {if $statement->getObject()->getTitle()}the Marketplace rating “{$statement->getObject()->getTitle()}”.{else}a Marketplace rating, which was deleted in the meantime.{/if}]]></item>
-		
-		<!-- wcf.jcoins.statement.category -->
-		<item name="wcf.jcoins.statement.category.com.uz.jcoins.marketplace"><![CDATA[VieCode Marketplace]]></item>
-	</category>
-	
-	<category name="marketplace.entry">
-		<item name="marketplace.entry.type.error.insufficientJCoins"><![CDATA[The {JCOINS_NAME} balance is not sufficient for this type of entry.]]></item>
-	</category>
+    <category name="wcf.jcoins.statement">
+        <item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.marketplace.exchange"><![CDATA[Marketplace Exchange Offer]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.marketplace.exchange"><![CDATA[Marketplace Exchange Offer deleted]]></item>
+        <item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.marketplace.exchange"><![CDATA[{if $statement->getObject()->getTitle()}Your Marketplace exchange offer “{$statement->getObject()->getTitle()}” was published.{else}A Marketplace exchange offer exchange of yours was published, which was deleted in the meantime.{/if}]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.marketplace.exchange"><![CDATA[{if $statement->getObject()->getTitle()}Your Marketplace exchange offer “{$statement->getObject()->getTitle()}” was disabled.{else}A Marketplace exchange offer of yours was deleted.{/if}]]></item>
+
+        <item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.marketplace.offer"><![CDATA[Marketplace Offer]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.marketplace.offer"><![CDATA[Marketplace Offer deleted]]></item>
+        <item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.marketplace.offer"><![CDATA[{if $statement->getObject()->getTitle()}Your Marketplace offer “{$statement->getObject()->getTitle()}” was published.{else}A Marketplace offer of yours was published, which was deleted in the meantime.{/if}]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.marketplace.offer"><![CDATA[{if $statement->getObject()->getTitle()}Your Marketplace offer “{$statement->getObject()->getTitle()}” was disabled.{else}A Marketplace offer of yours was deleted.{/if}]]></item>
+
+        <item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.marketplace.search"><![CDATA[Marketplace Search]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.marketplace.search"><![CDATA[Marketplace Search deleted]]></item>
+        <item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.marketplace.search"><![CDATA[{if $statement->getObject()->getTitle()}Your Marketplace search “{$statement->getObject()->getTitle()}” was published.{else}A Marketplace search of yours was published, which was deleted in the meantime.{/if}]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.marketplace.search"><![CDATA[{if $statement->getObject()->getTitle()}Your Marketplace search “{$statement->getObject()->getTitle()}” was disabled.{else}A Marketplace search of yours was deleted.{/if}]]></item>
+
+        <item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.marketplace.rating"><![CDATA[Marketplace Rating]]></item>
+        <item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.marketplace.rating"><![CDATA[You created {if $statement->getObject()->getTitle()}the Marketplace rating “{$statement->getObject()->getTitle()}”.{else}a Marketplace rating, which was deleted in the meantime.{/if}]]></item>
+
+        <!-- wcf.jcoins.statement.category -->
+        <item name="wcf.jcoins.statement.category.com.uz.jcoins.marketplace"><![CDATA[VieCode Marketplace]]></item>
+    </category>
+
+    <category name="marketplace.entry">
+        <item name="marketplace.entry.type.error.insufficientJCoins"><![CDATA[The {JCOINS_NAME} balance is not sufficient for this type of entry.]]></item>
+    </category>
 </language>
