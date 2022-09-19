@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.jcoins.statement">
+		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.marketplace.exchange"><![CDATA[Marktplatz-Tauschangebot]]></item>
+		<item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.marketplace.exchange"><![CDATA[Marktplatz-Tauschangebot gelöscht]]></item>
+		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.marketplace.exchange"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Marktplatz-Tauschangebot „{$statement->getObject()->getTitle()}“ wurde veröffentlicht.{else}Ein Marktplatz-Tauschangebot von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde veröffentlicht, das mittlerweile gelöscht ist.{/if}]]></item>
+		<item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.marketplace.exchange"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Marktplatz-Tauschangebot „{$statement->getObject()->getTitle()}“ wurde deaktiviert.{else}Ein Marktplatz-Tauschangebot von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde gelöscht.{/if}]]></item>
+		
+		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.marketplace.offer"><![CDATA[Marktplatz-Angebot]]></item>
+		<item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.marketplace.offer"><![CDATA[Marktplatz-Angebot gelöscht]]></item>
+		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.marketplace.offer"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Marktplatz-Angebot „{$statement->getObject()->getTitle()}“ wurde veröffentlicht.{else}Ein Marktplatz-Angebot von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde veröffentlicht, das mittlerweile gelöscht ist.{/if}]]></item>
+		<item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.marketplace.offer"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Marktplatz-Angebot „{$statement->getObject()->getTitle()}“ wurde deaktiviert.{else}Ein Marktplatz-Angebot von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde gelöscht.{/if}]]></item>
+		
+		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.marketplace.search"><![CDATA[Marktplatz-Gesuch]]></item>
+		<item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.marketplace.search"><![CDATA[Marktplatz-Gesuch gelöscht]]></item>
+		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.marketplace.search"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Marktplatz-Gesuch „{$statement->getObject()->getTitle()}“ wurde veröffentlicht.{else}Ein Marktplatz-Gesuch von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde veröffentlicht, das mittlerweile gelöscht ist.{/if}]]></item>
+		<item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.marketplace.search"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Marktplatz-Gesuch „{$statement->getObject()->getTitle()}“ wurde deaktiviert.{else}Ein Marktplatz-Gesuch von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde gelöscht.{/if}]]></item>
+		
+		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.marketplace.rating"><![CDATA[Marktplatz-Bewertung]]></item>
+		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.marketplace.rating"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} {if $statement->getObject()->getTitle()}die Marktplatz-Bewertung „{$statement->getObject()->getTitle()}“ erstellt.{else}eine Marktplatz-Bewertung erstellt, die mittlerweile gelöscht ist.{/if}]]></item>
+		
+		<!-- wcf.jcoins.statement.category -->
+		<item name="wcf.jcoins.statement.category.com.uz.jcoins.marketplace"><![CDATA[VieCode Marktplatz]]></item>
+	</category>
+	
+	<category name="marketplace.entry">
+		<item name="marketplace.entry.type.error.insufficientJCoins"><![CDATA[Das {JCOINS_NAME}-Guthaben ist nicht ausreichend für diese Art von Eintrag.]]></item>
+	</category>
+</language>
